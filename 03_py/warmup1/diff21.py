@@ -6,3 +6,7 @@ def diff21(n):
     return diff * 2
   else:
     return diff
+
+# diff21(19) → 2
+# diff21(10) → 11
+# diff21(21) → 0

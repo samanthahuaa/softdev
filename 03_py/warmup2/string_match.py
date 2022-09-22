@@ -6,3 +6,7 @@ def string_match(a, b):
     if a[i:i+2] == b[i:i+2]:
       n += 1
   return n
+
+# string_match('xxcaazz', 'xxbaaz') → 3
+# string_match('abc', 'abc') → 2
+# string_match('abc', 'axc') → 0

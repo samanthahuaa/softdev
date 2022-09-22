@@ -5,3 +5,7 @@ def string_splosion(str):
   for i in range(len(str)+1):
     s += str[:i]
   return s
+
+# string_splosion('Code') → 'CCoCodCode'
+# string_splosion('abc') → 'aababc'
+# string_splosion('ab') → 'aab'

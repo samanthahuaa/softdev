@@ -10,3 +10,7 @@ def last2(str):
     if last == s:
       n += 1
   return n - 1
+
+# last2('hixxhi') → 1
+# last2('xaxxaxaxx') → 1
+# last2('axxxaaxx') → 2

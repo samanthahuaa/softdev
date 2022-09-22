@@ -2,3 +2,7 @@
 
 def string_times(str, n):
   return str*n
+
+# string_times('Hi', 2) → 'HiHi'
+# string_times('Hi', 3) → 'HiHiHi'
+# string_times('Hi', 1) → 'Hi'

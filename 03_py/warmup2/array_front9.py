@@ -10,3 +10,7 @@ def array_front9(nums):
     if nums[i] == 9:
       return True;
   return False
+
+# array_front9([1, 2, 9, 3, 4]) → True
+# array_front9([1, 2, 3, 4, 9]) → False
+# array_front9([1, 2, 3, 4, 5]) → False

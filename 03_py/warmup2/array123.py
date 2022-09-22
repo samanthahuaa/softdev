@@ -5,3 +5,7 @@ def array123(nums):
     if nums[i:i+3] == [1,2,3]:
       return True
   return False
+
+# array123([1, 1, 2, 3, 1]) → True
+# array123([1, 1, 2, 4, 1]) → False
+# array123([1, 1, 2, 1, 2, 3]) → True

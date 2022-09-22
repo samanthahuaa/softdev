@@ -5,3 +5,7 @@ def has23(nums):
     if i == 2 or i == 3:
       return True
   return False
+
+#has23([2, 5])
+#has23([4, 3])
+#has23([4, 5])

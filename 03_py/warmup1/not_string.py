@@ -5,3 +5,7 @@ def not_string(str):
     return str
   else:
     return "not " + str
+
+# not_string('candy') → 'not candy'
+# not_string('x') → 'not x'
+# not_string('not bad') → 'not bad'

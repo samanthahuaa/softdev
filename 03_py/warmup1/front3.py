@@ -2,3 +2,7 @@
 
 def front3(str):
   return str[0:3]*3
+
+# front3('Java') → 'JavJavJav'
+# front3('Chocolate') → 'ChoChoCho'
+# front3('abc') → 'abcabcabc'

@@ -3,3 +3,7 @@
 def makes10(a, b):
   sum = a + b
   return (sum == 10) or (a == 10) or (b == 10)
+
+# makes10(9, 10) → True
+# makes10(9, 9) → False
+# makes10(1, 9) → True

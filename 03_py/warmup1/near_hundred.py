@@ -7,3 +7,7 @@ def near_hundred(n):
     return True
   else:
     return False
+
+# near_hundred(93) → True
+# near_hundred(90) → True
+# near_hundred(89) → False

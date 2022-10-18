@@ -2,7 +2,7 @@
 # SoftDev
 # K12 -- Take and Give
 # 2022-10-17
-# time spent: <elapsed time in hours, rounded to nearest tenth>
+# time spent: 1hrs
 
 from flask import Flask             #facilitate flask webserving
 from flask import render_template   #facilitate jinja templating
@@ -50,7 +50,7 @@ def authenticate():
     print(request.headers)
     print("***DIAG: request.form ***")
     print(request.form)
-    return render_template( 'response.html', user=request.form['username'], type=request)  # response to a form submission 
+    return render_template( 'response.html', user=request.form['username'], type=request)  # response to a form submission
 
 
 

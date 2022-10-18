@@ -2,7 +2,7 @@
 # SoftDev
 # K12 -- Take and Give
 # 2022-10-17
-# time spent: <elapsed time in hours, rounded to nearest tenth>
+# time spent: 1hrs
 
 DISCO:
  * The form submissions aren't saved by request.form

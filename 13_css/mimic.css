@@ -1,0 +1,36 @@
+/*
+Timmy and Dini's Adventures: Samantha Hua and Anjini Katari
+SoftDev
+K13 -- Stuylin' & Wylin' & Profilin' -- css flexbox flex div flex-flow color picker
+2022-10-18
+time spent: 1hrs
+*/
+
+h1 {
+    text-align: center;
+    background: #bebebe;
+    color: white;
+    margin-bottom: 0;
+}
+
+.list {
+    color: #dcdccd;
+}
+
+.main-content {
+    display: flex;
+    background-color: #767676;
+}
+
+.left-col {
+    margin: .5%;
+    flex: 1;
+}
+
+.right-col {
+    flex: 4;
+}
+
+body {
+    background: #565656;
+}

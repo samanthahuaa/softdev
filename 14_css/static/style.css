@@ -1,9 +1,9 @@
 /*
 Timmy and Dini's Adventures: Samantha Hua and Anjini Katari
 SoftDev
-K13 -- Stuylin' & Wylin' & Profilin' -- css flexbox flex div flex-flow color picker
-2022-10-18
-time spent: 1hrs
+K14 -- Serving Looks -- eyedropper linking html to app 
+2022-10-19
+time spent: .2hrs
 */
 
 h1 {
@@ -38,7 +38,8 @@ body {
 }
 
 footer {
-    /* margin-top: 0; */
-    padding: 0;
+    padding: 1%;
     background-color: #565656;
+    text-align: right;
+    color: #767676;
 }

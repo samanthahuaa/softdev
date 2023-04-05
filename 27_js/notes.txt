@@ -1,0 +1,18 @@
+Team guac no salsa :: Samantha Hua, Vansh Saboo
+SoftDev pd7
+K27 -- Basic functions in JavaScript
+2023-04-03t
+
+DISCO
+-----------------------------------------------------------------
+* lamda is used in Scheme to accept arguments and write functions
+* whitespace doesn't matter in Scheme but parentheses definitely do
+* the syntax of Scheme and JS is kind of similar but JS has no parentheses and curly braces instead
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* Are Scheme and JS related in any way? Anything deeper than their syntax is kind of similar?
+* Note: console.log() is the print statement for JS. (display ) is the print statement for Scheme
+* Scheme uses lambda to differentiate functions that have arguments and those that don't. Why does JS not need to as well?
+=================================================================

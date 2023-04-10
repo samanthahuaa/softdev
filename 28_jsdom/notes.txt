@@ -1,0 +1,3 @@
+the lowest style specification is the one that has the most priority
+if an element has multiple style codes, the one with highest priority is the only one that shows
+a class can have multiple styles

@@ -1,3 +1,8 @@
 the lowest style specification is the one that has the most priority
 if an element has multiple style codes, the one with highest priority is the only one that shows
 a class can have multiple styles
+
+An element in HTML can have multiple classes,
+but if the classes concern the same attribute then the only one with the highest priority will be shown
+
+To access a field of an object o, you use o["{the field}"] (e.g. o["items"])

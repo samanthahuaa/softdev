@@ -1,0 +1,9 @@
+Add event listener takes an event and a function
+For buttons, the only event we really care about is the click but for other elements, there will be other events like hover that we can track
+To reference the function simply put the function name. Putting parentheses after the function name (ex: addFib()) runs the function and breaks the button.
+
+We tried out the arrow notation for functions and we found it to be quite similar to the way we were writing functions previously. 
+
+We also experimented with the order of our code in the JS file and noticed that if the function the Event Listener calls is defined beneath the Event Listener, the function is not run. We think this is because the computer doesn't recognize the function as it has not yet previously been defined.
+
+With our richer understanding of JS functions, we were able to better grasp what the code was doing in the JS file. We now understand how new elements can be made with document.createElement and how we can modify values within the HTML tags through referencing it with .innerHTML. 

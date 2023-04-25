@@ -1,0 +1,37 @@
+TOOLBOX:
+
+* clearRect()
+(x,y,width,height)
+erases pixels -> transparent black
+
+* getElementById
+returns an Element object whose id property matches what was specified
+
+* fillStyle()
+color, gradient, or pattern inside the shape
+
+* strokeStyle()
+stroke of shape
+
+* fillText()
+text string at specified coordinates
+
+* beginPath()
+like pen down
+
+* arc()
+circular arc
+2pi -> full circle
+
+* fill()
+fills the current path with a color
+
+* stroke()
+stroke styles
+
+* Math.PI
+constant
+
+* offsetX
+a property of an event (ex: e.offsetX)
+difference between mouse coordinate and a specified point

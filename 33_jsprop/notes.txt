@@ -1,0 +1,7 @@
+* Bubble phase
+start at child and go to parent
+in addEventListener(event, function, boolean), if the boolean is false, bubble phase will occur
+
+* Capture phase
+start at parent and go to child.
+in addEventListener(event, function, boolean), if the boolean is true, capture phase will occur

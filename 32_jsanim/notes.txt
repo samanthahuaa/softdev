@@ -1,0 +1,66 @@
+TOOLBOX:
+
+* clearRect()
+(x,y,width,height)
+erases pixels -> transparent black
+
+* getElementById
+returns an Element object whose id property matches what was specified
+
+* fillStyle()
+color, gradient, or pattern inside the shape
+
+* strokeStyle()
+stroke of shape
+
+* fillText()
+text string at specified coordinates
+
+* beginPath()
+like pen down
+
+* arc()
+circular arc
+2pi -> full circle
+
+* fill()
+fills the current path with a color
+
+* stroke()
+stroke styles
+
+* Math.PI
+constant
+
+* offsetX
+a property of an event (ex: e.offsetX)
+difference between mouse coordinate and a specified point
+
+* requestAnimationFrame()
+updates animation onscreen
+requires an input (callback - the function to call when you update the animation)
+
+* cancelAnimationFrame()
+requires an input (requestID)
+cancels an animation frame request that was previously scheduled
+
+* Image()
+Creates a new HTMLImageElement instance (functionally equivalent to document.createElement('img'))
+
+* IMAGE_OBJ.src
+Property of HTMLImageElement objects, specifies the image to display in the <img> element
+
+* CANVAS_CONTEXT.drawImage()
+a way to draw images onto the canvas 
+common formats:
+drawImage(image, dx, dy)
+drawImage(image, dx, dy, dWidth, dHeight)
+drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
+
+* Math.random()
+returns a random float greater than or equal to 1 and less than 1
+protip: multiply by the range of values you're looking for and add the minimum value to get a range of any variety
+(ex: Math.random() * 5 +1 returns a range of 1 to 6)
+
+* Math.floor()
+rounds down, returns the largest int less than or equal to a give number

@@ -35,7 +35,7 @@ var drawDot = () => {
     requestID = window.requestAnimationFrame(drawDot)
 
     // radius increases if the circle is growing vice versa
-    if (growing == true) {
+    if (growing) {
         radius++
     } else {
         radius--

@@ -12,7 +12,8 @@ ctx.fillStyle = "cyan"
 
 var requestID;
 
-var clear = (e) => {
+var clear = () => {
+    // e.preventDefault()
     ctx.clearRect(0, 0, 500, 500);
 }
 
